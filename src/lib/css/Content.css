@@ -1,0 +1,16 @@
+.content > .subContent{
+    width: auto;
+    height: auto;
+}
+
+.content {
+    width: 100%;
+}
+
+.content > .emptyDiv{
+    height: 100px;
+}
+
+.subContent > .emptyDiv{
+    height: 100px;
+}

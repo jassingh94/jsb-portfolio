@@ -1,0 +1,78 @@
+
+.Profile > .profile-content {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    text-align-last: center;
+}
+
+.Profile > .profile-content > .image {
+    width: 18%;
+    align-items: center;
+    text-align-last: center;
+}
+
+.Profile > .profile-content > .image >.self-image {
+    align-items: center;
+    text-align-last: center;
+}
+
+
+.socialLinks{
+    margin: 2%;
+    margin-bottom: 1%;
+    text-align: center;
+}
+
+.socialLinks > .button {
+    margin-right: 1%;
+    margin-left: 1%;
+    text-align: center;
+}
+
+.contactLinks{
+    text-align: center;
+}
+
+.contactLinks > div >.button {
+    margin-bottom: 1%;
+    text-align: center;
+}
+
+#name-tag {
+    font-family: "brandon grotesque", brandon, helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    white-space: nowrap;
+    margin: 20px;
+    color:black;
+    display: block;
+    height: 10px;
+    border-bottom1: solid 1px #000;
+    text-align: center;
+    
+    margin-bottom: 2.5%;
+}
+
+#name-tag1 {
+    display: inline-block;
+    background-color: #ffffff;
+    padding: 0 10px;
+}
+
+.spin-subtitle {
+    margin-bottom: 2%!important;
+    text-align: center;
+}
+
+.txt-rotate{
+    font-family: arapey, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #678;
+    text-align: center;
+}

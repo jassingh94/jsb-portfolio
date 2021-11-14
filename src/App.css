@@ -1,0 +1,116 @@
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+body {
+  
+}
+
+.mainMenu {
+ margin:auto!important;
+ place-content: center!important;
+ font-size: initial!important;
+ 
+}
+
+.mainMenu > .item{
+  color:#678!important;
+  
+  margin-left: 10px!important;
+  margin-right: 10px!important; 
+  padding-right: 19px!important;
+  padding-left: 10px!important;
+
+  font-family: Lato!important;
+
+  font-style: normal!important;
+  line-height: 1!important;
+
+  cursor: pointer!important;
+
+  font-size: 100%!important;
+  font-weight: 500!important;
+
+  text-transform: uppercase!important;
+}
+
+.mainMenu > .item1:hover{
+  color: rgb(177, 177, 177)!important; 
+}
+
+.mainMenu > .item.active{
+  
+  text-decoration: underline!important;
+  
+}
+
+.App > .emptyDiv{
+  height: 90px;
+}
+
+.App-menu{
+  z-index: 1;
+  width: 100%;
+  height: 90px;
+  background-color: #ffffff;
+  position:fixed;
+  top:0;
+  left:0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)!important;
+}
+
+.App-menu > .emptyDiv{
+  height: 40px;
+}
+
+.App-header {
+  background-color: #ffffff;
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white; 
+  min-height: 100vh;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Resume {
+  position:absolute;
+  top: 10;
+  right: 10;
+  border: 1px solid rgb(86, 180, 239);
+  box-shadow: 0px 1px 3px rgb(0 0 0 / 5%) inset, 0px 0px 8px rgb(82 168 236 / 60%);
+  border-radius: 4px;
+}
+
+.Resume > button {
+  background-color: white!important;
+}
+
+.Resume > button > i 
+{
+  background-color: white!important;
+}
+
+.reactLogo { 
+  position:absolute!important;
+  top:5;
+  left:5;
+}
